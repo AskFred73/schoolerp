@@ -1,0 +1,10 @@
+bin/
+obj/
+.env
+.env.local
+client/.env.local
+*.user
+.vs/
+node_modules/
+client/.next/
+client/out/

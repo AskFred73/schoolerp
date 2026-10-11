@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+:root {
+  --canvas: #fafafc;
+  --card: #ffffff;
+  --table-header: #f1f5f9;
+  --navy: #1e3a8a;
+  --emerald: #10b981;
+  --emerald-dark: #059669;
+  --amber: #f59e0b;
+  --amber-dark: #d97706;
+  --crimson: #dc2626;
+  --foreground: #0f172a;
+  --muted: #64748b;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+}
+
+@theme inline {
+  --color-canvas: var(--canvas);
+  --color-card: var(--card);
+  --color-navy: var(--navy);
+  --color-emerald: var(--emerald);
+  --color-amber: var(--amber);
+  --color-crimson: var(--crimson);
+  --font-sans: var(--font-inter);
+}
+
+body {
+  background: var(--canvas);
+  color: var(--foreground);
+  font-family: var(--font-inter), system-ui, sans-serif;
+}

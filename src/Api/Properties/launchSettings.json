@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "SchoolERP.Api": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "http://localhost:5080",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "SCHOOLERP_USE_INMEMORY_DB": "1"
+      }
+    }
+  }
+}
